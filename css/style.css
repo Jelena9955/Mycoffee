@@ -1,0 +1,341 @@
+body {
+  font-family: 'Nunito', sans-serif; }
+
+a {
+  color: #c0daea; }
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
+  .container-fluid img {
+    background-size: cover; }
+
+.naslov {
+  z-index: 1; }
+
+.menu {
+  z-index: 2;
+  margin-top: -5%; }
+  .menu p {
+    color: #ab825b; }
+  .menu .meni {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 200px;
+    text-align: center;
+    margin-left: 5%; }
+    .menu .meni i {
+      color: #c0daea !important; }
+  .menu .sidenav li a i .material-icons {
+    color: #c0daea !important; }
+  .menu #slide-out .user-view {
+    height: 200px !important; }
+  .menu .prvi {
+    margin-left: 0%; }
+
+h1 {
+  color: #c0daea; }
+
+.blok {
+  background-color: #d8bfa9;
+  height: auto;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%; }
+  .blok img {
+    width: 25% !important;
+    margin: 0px auto !important; }
+  .blok .card-image {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%; }
+  .blok .kartica {
+    background-color: rgba(255, 255, 255, 0.5) !important; }
+    .blok .kartica span {
+      color: #ab825b;
+      font-weight: 900;
+      font-size: 20px; }
+    .blok .kartica a {
+      color: #c0daea !important;
+      font-size: 20px;
+      font-weight: 900; }
+
+.drugi {
+  background-color: white; }
+
+.karta {
+  height: 100px !important;
+  width: 200px; }
+
+.slika {
+  width: 100px !important; }
+
+.karte {
+  margin-top: 5%; }
+
+.kontejner {
+  height: 100%; }
+  .kontejner .drzac {
+    margin-bottom: 0px; }
+
+.zrna {
+  height: 650px; }
+
+.pozadina {
+  background-image: url(../slike/onama5.png);
+  z-index: 2;
+  height: 650px; }
+
+.naslovno2 {
+  background-image: url(../slike/onama4.png); }
+
+form {
+  z-index: 1; }
+  form input[type=text]:not(.browser-default).validate + label {
+    color: #c0daea !important;
+    border: #c0daea; }
+
+.ikonice i {
+  font-size: 5em !important;
+  color: #c0daea !important;
+  margin-bottom: 10% !important; }
+
+h2 {
+  color: #ab825b; }
+
+.parallax-container p {
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 70px;
+  margin-top: 15%; }
+.parallax-container .kvote {
+  height: 345px !important; }
+.parallax-container .zrna {
+  height: 650px !important; }
+.parallax-container h3 {
+  color: #c0daea;
+  font-size: 70px;
+  margin-top: 5%; }
+.parallax-container .opis {
+  font-family: 'Nunito', sans-serif;
+  color: #ab825b;
+  font-size: 30px;
+  margin-top: 0%; }
+
+.sidenav .user-view {
+  height: 200px !important; }
+
+.hamburger {
+  margin-bottom: 0% !important; }
+  .hamburger .hamburgesa {
+    font-size: 35px;
+    margin-top: 5%; }
+
+#modal1 {
+  width: 50%;
+  height: 60%; }
+
+.modal-footer {
+  height: auto !important; }
+
+#forma {
+  text-align: left !important; }
+
+.solje {
+  width: 120px !important; }
+
+#secer {
+  text-align: left;
+  font-size: 17px;
+  color: #c0daea; }
+
+.modal-content h4 {
+  color: #ab825b; }
+
+.buton {
+  width: 500px !important;
+  height: 500px !important; }
+  .buton:active {
+    filter: grayscale(0%); }
+
+input[type=radio]:checked + span:after {
+  background-color: #c0daea !important;
+  border: #c0daea !important; }
+
+input[type=range] + .thumb.value {
+  background-color: #ab825b !important;
+  width: 5px !important; }
+
+.dugme:hover {
+  background-color: #c0daea !important; }
+
+.togo {
+  margin-right: auto !important; }
+
+.blok .slika {
+  width: 100% !important;
+  filter: grayscale(70%) !important; }
+  .blok .slika:hover {
+    filter: grayscale(0%) !important; }
+
+button {
+  border-radius: 100%;
+  background-color: #d8bfa9;
+  border: #d8bfa9; }
+
+.drzaci {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important; }
+
+.blok .zrnca {
+  width: 10% !important;
+  margin: 1% !important; }
+.blok .penica {
+  width: 10% !important;
+  margin: 1% !important; }
+.blok .mleko {
+  width: 5% !important;
+  margin: 1% !important; }
+
+.belodug {
+  background-color: white !important; }
+
+.prelivr {
+  padding-left: 0% !important;
+  margin-bottom: 10% !important; }
+
+@media only screen and (max-width: 1125px) {
+  .zrna {
+    height: 500px; }
+    .zrna .opis {
+      font-size: 25px !important; }
+
+  .zrnoca {
+    height: 500px; }
+    .zrnoca .opis {
+      font-size: 25px !important; } }
+.izbor {
+  color: #c0daea;
+  font-size: 25px; }
+
+.drugi .kafik {
+  color: #ab825b !important; }
+.drugi .vodik {
+  color: #d0e8f7 !important; }
+.drugi .mlekik {
+  color: #f2f5d1 !important; }
+
+.penik {
+  color: white; }
+
+.drzac p {
+  font-size: 20px;
+  color: #ab825b; }
+
+.fahov:hover {
+  color: #ab825b !important; }
+
+.zrnoca {
+  height: 650px !important; }
+  .zrnoca img {
+    opacity: 1 !important; }
+
+.kontakt p {
+  color: #c0daea !important;
+  font-size: 20px !important;
+  font-family: 'Nunito', sans-serif; }
+.kontakt h6 {
+  color: #ab825b; }
+
+.kontnas {
+  margin-top: 2%; }
+
+table {
+  width: 70% !important; }
+
+.braon {
+  color: #ab825b !important; }
+
+.plavo {
+  color: #c0daea !important; }
+
+.drugeikonice i {
+  font-size: 4em !important; }
+
+.beltekst {
+  color: #c0daea;
+  font-size: 20px; }
+
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: none !important; }
+
+  .naslov {
+    display: none !important; }
+
+  .zrna .opis {
+    font-size: 20px !important; } }
+@media only screen and (max-width: 767px) {
+  .blok .zrnca {
+    width: 5% !important;
+    margin: 1% !important; }
+  .blok .penica {
+    width: 5% !important;
+    margin: 1% !important; }
+  .blok .mleko {
+    width: 3% !important;
+    margin: 1% !important; }
+
+  .vrstek {
+    width: 60% !important; }
+
+  .kafavrste {
+    margin-bottom: 5% !important; }
+
+  .blok img {
+    width: 30% !important; }
+  .blok .slika {
+    width: 70% !important; }
+
+  .prelivr {
+    padding-left: 40% !important;
+    margin-bottom: 10% !important; } }
+@media only screen and (max-width: 746px) {
+  .produzi {
+    height: 750px !important;
+    width: auto !important; } }
+@media only screen and (max-width: 625px) {
+  .parallax-container h3 {
+    font-size: 50px !important; }
+
+  .zrna .opis {
+    font-size: 13px !important; }
+  .zrna .josjed {
+    font-size: 20px !important; } }
+@media only screen and (max-width: 614px) {
+  #modal1 {
+    width: 100% !important; } }
+@media only screen and (max-width: 577px) {
+  .blok img {
+    width: 25% !important; }
+
+  .prelivr {
+    padding-left: 30% !important;
+    margin-bottom: 10% !important; } }
+@media only screen and (min-width: 1400px) {
+  .parallax-container p {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 70px;
+    margin-top: 10%; } }
+@media only screen and (min-width: 1100px) {
+  #modal1 {
+    width: 35% !important; } }
+@media only screen and (min-width: 900px) {
+  .hamburger {
+    display: none !important; }
+
+  .sidenav {
+    display: none !important; }
+
+  .sidenav-trigger {
+    display: none !important; } }
+
+/*# sourceMappingURL=style.css.map */
